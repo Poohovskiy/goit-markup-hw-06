@@ -336,6 +336,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    outline: none;
 }
 
 .form-field label {
@@ -440,6 +441,14 @@ h1, h2, h3, h4, h5, h6, p {
     background-size: contain;
     background-position: center;
     background-origin: border-box;
+}
+
+.policy-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
 }
 
 .policy-link {
@@ -1076,7 +1085,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     padding-left: 24px;
-    margin-top: 20px;
+    padding-top: 20px;
     }
 
 .portfolio-paragraph {
@@ -1085,12 +1094,11 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    margin-top: 4px;
+    padding-top: 4px;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     padding-left: 24px;
-    margin-top: 4px;
     padding-bottom: 20px;
 }
 
